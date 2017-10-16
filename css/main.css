@@ -17,13 +17,14 @@
 
 #right-ear,
 #left-ear {
-  transform: translateY(0px);
+  transform: translateY(0);
   transition: all .5s linear;
 }
 
 .bear:hover #left-ear {
   transform: translateY(-5px);
 }
+
 .bear:hover #right-ear {
   transform: translateY(-5px);
 }
